@@ -66,6 +66,7 @@ const MemeGenerator = () => {
                 templates.map(template => {
                     return(
                         <Meme 
+                            key={template.id}
                             template={template}
                             onClick={() =>{
                                 setTemplate(template)
