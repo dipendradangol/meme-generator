@@ -50,16 +50,16 @@ const MemeGenerator = () => {
                 }}>
                     <Meme template={template} />
                     <input 
-                        placeholder="top text" 
+                        placeholder="top text.." 
                         value={topText} 
                         onChange={e => setTopText(e.target.value)} 
                     />
                     <input 
-                        placeholder="bottom text" 
+                        placeholder="bottom text..." 
                         value={bottomText} 
                         onChange={e => setBottomText(e.target.value)}
                     />
-                    <button type="submit">Create meme</button>
+                    <button type="submit">Create Meme</button>
                 </form>
             )}
             {!template && 
